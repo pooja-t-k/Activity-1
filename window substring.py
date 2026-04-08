@@ -6,10 +6,8 @@ def minWindow(s, t):
 
     t_count = Counter(t)
     window = {}
-
     have = 0
     need = len(t_count)
-
     left = 0
     res = [-1, -1]
     res_len = float("inf")
