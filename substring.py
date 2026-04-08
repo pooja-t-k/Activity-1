@@ -12,11 +12,7 @@ def lengthOfLongestSubstring(s):
         max_length = max(max_length, right - left + 1)
 
     return max_length
-
-
-# Input
 s = "abcabcbb"
 
-# Output
 result = lengthOfLongestSubstring(s)
 print("Length of Longest Substring:", result)
